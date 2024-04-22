@@ -1,7 +1,5 @@
-*{
-    background-color: rgb(0, 0, 0);
-   
-    
+body{
+    background-color: black;
 }
 .post{
     background-color: rgb(255, 255, 255);
@@ -17,48 +15,60 @@
 }
 
 .post-header{
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 65px;
     margin-top: 10px;
     font-size: 50px;
     display: flex; 
-    align-items: baseline;
-    color: white;
+    align-items: center;
+    
     
 }
 
 .icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
     margin-left: 10px;
-    color: white;
-    font-size: 30px;
+    background-image: url(https://media1.tenor.com/m/3HrIbcsMx-8AAAAC/f-society-mask.gif);
+    background-size: cover;
+    background-position: center;
+  
+   
 }
 
 .ellipsis{
+    background-color: rgb(255, 255, 255);
     font-size: 30px;
-    margin-left: 160px;
-    color: white;
+    
+    color: black;
     
 }
 
-.post-header p {
+.text-header{
+    
     font-size: 20px;
-    margin-left: 10px;
+    flex-grow: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
 
 .post-img{
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 50%;
    margin-top: 5px;
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNblub4lVHCr8l2txqjSoCZehuoap0GiOOPh4P0W62wQ&s);
+   background-image: url(https://media1.tenor.com/m/K2VcFLiyC5YAAAAC/greetings-f-society.gif);
    background-size: cover;
    background-position: center;
     
 }
 
 .post-footer{
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 30%;
     margin-top: 5px;
@@ -68,14 +78,28 @@
 }
 
 .post-icons{
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 15%;
     margin-top: 5px;
-    border: 5px solid red;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    padding: 0px 15px;
+   
 }
+
+.plane{
+    margin-left: auto;
+}
+
+
 .post-text{
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 60%;
-    margin-top: 5px;
-    border: 5px solid red;
+    padding: 10px 15px 20px;
+    font-size:15px;
+    
+    
 }
