@@ -1,105 +1,94 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-.post{
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    
-    
-    
+.post {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
-.post-header{
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 65px;
-    margin-top: 10px;
-    font-size: 50px;
-    display: flex; 
-    align-items: center;
-    
-    
+.post-header {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 65px;
+  margin-top: 10px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.icon{
-    width: 45px;
-    height: 45px;
-    border-radius: 20px;
-    margin-left: 10px;
-    background-image: url(https://media1.tenor.com/m/3HrIbcsMx-8AAAAC/f-society-mask.gif);
-    background-size: cover;
-    background-position: center;
-  
-   
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-image: url(https://media1.tenor.com/m/3HrIbcsMx-8AAAAC/f-society-mask.gif);
+  background-size: cover;
+  background-position: center;
 }
 
-.ellipsis{
-    background-color: rgb(255, 255, 255);
-    font-size: 30px;
-    
-    color: black;
-    
+.ellipsis {
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  color: black;
+}
+.ellipsis:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.text-header{
-    
-    font-size: 20px;
-    flex-grow: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+.text-header {
+  font-size: 20px;
+  flex-grow: 1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-
-.post-img{
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 50%;
-   margin-top: 5px;
-   background-image: url(https://media1.tenor.com/m/K2VcFLiyC5YAAAAC/greetings-f-society.gif);
-   background-size: cover;
-   background-position: center;
-    
+.post-img {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 50%;
+  margin-top: 5px;
+  background-image: url(https://media1.tenor.com/m/K2VcFLiyC5YAAAAC/greetings-f-society.gif);
+  background-size: cover;
+  background-position: center;
 }
 
-.post-footer{
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 30%;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.post-footer {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 30%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.post-icons{
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 15%;
-    margin-top: 5px;
-    display: flex;
-    font-size: 20px;
-    gap: 10px;
-    padding: 0px 15px;
-   
+.post-icons {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 20%;
+  margin-top: 5px;
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+  padding: 0px 15px;
+}
+.post-icons i:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-.plane{
-    margin-left: auto;
+.plane {
+  margin-left: auto;
 }
 
-
-.post-text{
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 60%;
-    padding: 10px 15px 20px;
-    font-size:15px;
-    
-    
+.post-text {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 60%;
+  padding: 10px 15px 20px;
+  font-size: 15px;
 }
