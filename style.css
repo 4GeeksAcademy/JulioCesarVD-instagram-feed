@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(0, 0, 0);
+   
+    
+}
+.post{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+    
+    
+}
+
+.post-header{
+    width: 95%;
+    height: 65px;
+    margin-top: 10px;
+    font-size: 50px;
+    display: flex; 
+    align-items: baseline;
+    color: white;
+    
+}
+
+.icon{
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.ellipsis{
+    font-size: 30px;
+    margin-left: 160px;
+    color: white;
+    
+}
+
+.post-header p {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.post-img{
+    width: 95%;
+    height: 50%;
+   margin-top: 5px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNblub4lVHCr8l2txqjSoCZehuoap0GiOOPh4P0W62wQ&s);
+   background-size: cover;
+   background-position: center;
+    
+}
+
+.post-footer{
+    width: 95%;
+    height: 30%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-icons{
+    width: 95%;
+    height: 15%;
+    margin-top: 5px;
+    border: 5px solid red;
+}
+.post-text{
+    width: 95%;
+    height: 60%;
+    margin-top: 5px;
+    border: 5px solid red;
+}
